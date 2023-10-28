@@ -10,8 +10,8 @@ function Header() {
         <p>{currentLanguage === 'en' ? 'Step up your' : 'Поднимите свой'}</p>
         <h1>
           <span>
-            {currentLanguage === 'en' ? 'Fitness' : 'Фитнес'} with us
-          </span> with us
+            {currentLanguage === 'en' ? 'Fitness' : 'Фитнес'}
+          </span> {currentLanguage === 'en' ? 'with us' : 'с нами'}
         </h1>
         <p className="details">
         {currentLanguage === 'en'

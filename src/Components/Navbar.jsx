@@ -11,10 +11,6 @@ function Navbar() {
     window.scrollY >= 50 ? setNav(true) : setNav(false);
   };
 
-  // const handleLanguageChange = (language) => {
-  //   setCurrentLanguage(language);
-  // }
-
   window.addEventListener('scroll', changeBackground);
 
   return (
@@ -53,7 +49,6 @@ function Navbar() {
           </Link>
         </li>
       </ul>
-      {/* <LanguageSwitcher onChangeLanguage={handleLanguageChange} /> */}
       <div className="language-switcher">
         <button
           className={currentLanguage === 'en' ? 'active' : ''}
